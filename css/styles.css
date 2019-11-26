@@ -1,0 +1,172 @@
+body {
+  /* font-family: verdana, sans-serif; */
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /* prefered font plus list of fall-backs */
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+
+  /* 16pt ; to get 90pt  90/16 = 562%*/
+  /* font-size: 562%;   */
+  /* em --- 1 em is 16px = 100% */
+  /* font-size: 5.625em;   */
+  font-size: 5.625rem;
+
+  /* the safest unit */
+  /* margin-top: 2.6rem; */
+  /* equiv to 50px */
+  /* line-height: 2;
+  prefered to be unitless; default is 1 */
+  margin: 2.6rem auto 0 auto;
+
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  /* want to be equivalent to 40px if base is 16.. 40/16 = 2.5 */
+
+  color: #66bfbf;
+}
+
+h3 {
+  margin-bottom: 25px;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #40514e;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  /* border-color: #eaf6f6; */
+  border-color: lightgrey;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 5%;
+}
+
+/* example to show effect of giving width to a block element */
+/* h1 {
+  margin: 0 auto 0 auto;
+  margin: 0 auto;  equivalent to above
+  width: 20%;
+} */
+.top-container {
+  background-color: #eaf6f6; /* so the bottom cloud can be positioned; the top-container
+  will be the reference box */
+  padding-top: 100px;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+  background-color: white;
+}
+.profile {
+  width: 50%;
+  margin: 75px auto 75px auto; /* top right bottom left */
+  text-align: center;
+}
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto; /* top right bottom left */
+  text-align: left;
+  width: 50%;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.contact-me {
+  margin: 0 auto 100px auto;
+
+  width: 50%;
+}
+
+.btn {
+  background-image: linear-gradient(to bottom, #16d2d9, #11999e);
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 25px;
+  line-height: 25px;
+  margin-top: 25px;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 120px;
+}
+
+.footer {
+  padding-bottom: 20px;
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+.footer-link {
+  text-decoration: none;
+  color: #11999e;
+  display: inline-block;
+  width: 25%;
+}
+.copyright {
+  font-size: 0.8rem;
+  color: #eaf6f6;
+}
+
+/* ======================== image styling =========================== */
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 15%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 15%; /* we do this to  allow the mountain element to center in the flow */
+}
+
+.dave-img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.html-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.node-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .html-skill-description {
+  clear: left;  clear is like an "anti-float"
+}
+
+.node-skill-description {
+  clear: right; clear is like an "anti-float"
+} */
