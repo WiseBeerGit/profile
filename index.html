@@ -13,7 +13,7 @@
     <!-- <div style="position: absolute; top: 20px; right: 100px; width: 100px; z-index: 1; background-color: lightgrey;"> <a style=" display: block;" href="../index.html">Index Site</a> </div> -->
 
     <div class="top-container">
-      <a href="../index.html">
+      <a href="https://invisikami.github.io/demo/">
         <img class="top-cloud" src="./images/cloud.png" alt="cloud-img"></a>
       <h1>I'm Dave.</h1>
       <h2>a
