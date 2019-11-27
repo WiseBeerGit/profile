@@ -5,6 +5,7 @@ body {
   font-family: "Merriweather", serif;
   margin: 0;
   text-align: center;
+  color: #40514e;
 }
 
 h1 {
@@ -27,12 +28,12 @@ h1 {
 }
 
 h2 {
+  color: #66bfbf;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   /* want to be equivalent to 40px if base is 16.. 40/16 = 2.5 */
-
-  color: #66bfbf;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -42,18 +43,26 @@ h3 {
 }
 
 p {
-  color: #40514e;
+  line-height: 2;
 }
 
 hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 5px;
-  /* border-color: #eaf6f6; */
   border-color: lightgrey;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  border: dotted;
+  border-bottom: none;
+  border-width: 6px;
+  margin: 100px auto;
   width: 5%;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a5b5e;
 }
 
 /* example to show effect of giving width to a block element */
@@ -75,14 +84,18 @@ hr {
 
 .middle-container {
   background-color: white;
+  margin: 100px 0 100px 0;
 }
 .profile {
-  width: 50%;
-  margin: 75px auto 75px auto; /* top right bottom left */
-  text-align: center;
+  margin: 0 auto;
 }
+
+.intro {
+  width: 30%;
+  margin: 0 auto;
+}
+
 .skill-row {
-  line-height: 2;
   margin: 100px auto 100px auto; /* top right bottom left */
   text-align: left;
   width: 50%;
@@ -90,47 +103,51 @@ hr {
 
 .bottom-container {
   background-color: #66bfbf;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
 .contact-me {
   margin: 0 auto 100px auto;
-
   width: 50%;
 }
 
 .btn {
-  background-image: linear-gradient(to bottom, #16d2d9, #11999e);
-  border-radius: 10px;
+  background-color: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
   color: white;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.2rem;
   height: 25px;
   line-height: 25px;
   margin-top: 25px;
-  padding: 5px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
   text-transform: capitalize;
-  width: 120px;
 }
 
-.footer {
-  padding-bottom: 20px;
-  margin: 0 auto 0 auto;
-  width: 50%;
+.btn:hover {
+  background-color: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
 }
+
 .footer-link {
-  text-decoration: none;
   color: #11999e;
-  display: inline-block;
-  width: 25%;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
 }
-.copyright {
-  font-size: 0.8rem;
+
+.footer-link:hover {
   color: #eaf6f6;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 /* ======================== image styling =========================== */
@@ -141,13 +158,13 @@ hr {
 }
 
 .bottom-cloud {
-  position: absolute;
+  position: absolute; /* we do this to  allow the mountain element to center in the flow */
   bottom: 300px;
-  left: 15%; /* we do this to  allow the mountain element to center in the flow */
+  left: 15%;
 }
 
 .dave-img {
-  width: 30%;
+  width: 15%;
   border-radius: 50%;
 }
 

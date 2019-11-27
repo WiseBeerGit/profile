@@ -27,7 +27,7 @@
       <div class="profile">
         <img class="dave-img" src="./images/daveprofile.jpg" alt="dave-img">
         <h2>Hello.</h2>
-        <p>I'm Dave! I like making things and helping people!</p>
+        <p class="intro">I'm Dave! I like making things and helping people!</p>
       </div>
       <hr>
       <div class="skills">
@@ -36,8 +36,8 @@
           <img class="html-img" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="">
           <!-- <img class="medimg" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" alt=""> -->
           <h3>Front-end Web Development with HTML/CSS</h3>
-          <p class="html-skill-description">I created my first website when the internet was still very young in the mid 1990's. Since then I have built various sites and used different tools. Recently I renewed my interestin programming and web development.
-            Have a look at some of the sites I have developed in HTML/CSS. See
+          <p >I created my first website when the internet was still very young in the mid 1990's. Since then I have built various sites and used different tools. Recently I renewed my interestin programming and web development. Have a look at some of the
+            sites I have developed in HTML/CSS. See
             <a href="https://invisikami.github.io/demo/index.html">Github Web Development Projects</a>
           </p>
         </div>
@@ -45,8 +45,8 @@
           <img class="node-img" src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png" alt="">
           <h3>Back-end Web Development with Javascript and MongoDB
           </h3>
-          <p class="node-skill-description">I've been toying with languages since BASIC. In my computer engineering degree I learned to work with C, C++ and Java. But I've had the most fun developing web applications using Javascript and popular frameworks and
-            tools like Node, Express and MongoDB. See
+          <p >I've been toying with languages since BASIC. In my computer engineering degree I learned to work with C, C++ and Java. But I've had the most fun developing web applications using Javascript and popular frameworks and tools like Node, Express and
+            MongoDB. See
             <a href="https://ypdave.herokuapp.com/">YelpCamp</a>
           </p>
         </div>
@@ -55,17 +55,17 @@
       <div class="contact-me">
         <h2>Get In Touch</h2>
         <h3>If you like dogs.</h3>
-        <p>Send me an email and I promise to respond within 24 hours.</p>
+        <p class="contact-message">Send me an email and I promise to respond within 24 hours.</p>
         <a class="btn" href="mailto:emaildavethetrainer@gmail.com">CONTACT ME</a>
       </div>
     </div>
 
     <div class="bottom-container">
-      <div class="footer">
-        <a class="footer-link" href="https://www.linkedin.com/in/davethetrainer/">LinkedIn</a>
-        <a class="footer-link" href="https://www.facebook.com/lifecoachdavebrown">Facebook</a>
-        <a class="footer-link" href="https://invisikami.github.io/demo/index.html">Website</a>
-      </div>
+
+      <a class="footer-link" href="https://www.linkedin.com/in/davethetrainer/">LinkedIn</a>
+      <a class="footer-link" href="https://www.facebook.com/lifecoachdavebrown">Facebook</a>
+      <a class="footer-link" href="https://invisikami.github.io/demo/index.html">Website</a>
+
       <p class="copyright">© 2018 David Brown.</p>
     </div>
 
